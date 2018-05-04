@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+iframe.sso {
+    border:                     1px solid #ccc;
+    width:                      800px;
+}

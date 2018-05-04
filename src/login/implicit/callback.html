@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sso</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script>
+;(function(w) {
+  w.parent.postMessage({type: 'sso.success', fragment: w.location.hash}, w.location.origin);
+})(window);
+  </script>
+</body>
+</html>
