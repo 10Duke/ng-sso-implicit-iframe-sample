@@ -18,7 +18,7 @@ import { WINDOW } from '../window/window.service';
 })
 export class OAuthIFrameComponent implements OnDestroy, OnInit
 {
-    @ViewChild('oauth') public iframeRef: ElementRef;
+    @ViewChild('oauth', { static: true }) public iframeRef: ElementRef;
 
     /** CSS-classes to set to the `iframe`-element. */
     @Input() public classes: string;

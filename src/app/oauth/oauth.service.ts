@@ -1,4 +1,4 @@
-import { Inject, Injectable, Optional } from '@angular/core';
+import { Inject, Optional } from '@angular/core';
 
 import { Random } from '../random/random.type';
 
@@ -19,7 +19,6 @@ import { ProviderConfiguration } from './provider-configuration.type';
  * Note that this service does not initiate any requests.
  *
  */
-@Injectable()
 export class OAuthService
 {
 
