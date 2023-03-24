@@ -1,5 +1,12 @@
 # OAuth2 implicit flow in iframe Single-Sign-On demo
 
+**IMPORTANT:** ***Deprecated***. OAuth2 implicit grant flow should NOT be used due to security
+vulnerabilities (see ["OAuth 2.0 Security Best Current Practice"](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics#name-implicit-grant)).
+Use OAuth2 authorization code with PKCE instead. For a sample for Angular with source code, see
+[OAuth2 authorization code flow with PKCE Single-Sign-On demo](https://github.com/10Duke/ng-sso-authzcode-pkce-sample).
+This repository is preserved only for reference.
+
+## Contents
 This demo application demonstrates how to perform OAuth2 implicit flow SSO in an
 iframe, and then request `/userinfo` with the access token.
 
